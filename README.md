@@ -25,9 +25,11 @@
 　→Arduino UNO R4 WiFi向けのWi-Fi制御ライブラリ
 
 ・ArduinoHttpClient.h
+
+　→‣HTTP/HTTPSリクエストを簡単に送るためのライブラリ
  
 ・Servo.h
 
  　→Arduino標準ライブラリのひとつで、サーボモータを簡単に制御するためのヘッダファイル
- 　‣HTTP/HTTPSリクエストを簡単に送るためのライブラリ
+
 
