@@ -15,9 +15,9 @@
 # 使用モジュール
 |部品|個数|用途|接続ピン|
 |:---:|:---:|:---:|:---:|
-|Arduino UNO R4 WiFi|1|マイコン||
-|タッチセンサ（TTP223B）|1|手動給餌トリガー||
-|サーボモータ(9G Servo)|1|- フラップゲートの開閉制御||
+|Arduino UNO R4 WiFi|1|通信・制御|USBケーブル|
+|タッチセンサ（TTP223B）|1|手動給餌トリガー|D2|
+|サーボモータ(9G Servo)|1|- フラップゲートの開閉制御|D9|
 
 # 使用ライブラリ（ソフトウェア）
 ・WiFiS3.h
@@ -38,5 +38,9 @@
 # 回路図
 <img width="817" height="573" alt="image" src="https://github.com/user-attachments/assets/2ce914e1-487e-42d6-9dd5-871a02f01f54" />
 
+# 動作仕様書
 
-
+```mermaid
+graph TD;
+開始-->初期化(setup);
+```
