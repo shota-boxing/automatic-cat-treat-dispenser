@@ -69,6 +69,8 @@ graph TD
 
 ![タッチセンサー](picture/Touch%20Sensor.png)
 
+![サーボ](videos/Servo%20Opening%20and%20Closing.MOV)
+
 # 工夫点
 
 ### 通知メッセージのメモリ管理
