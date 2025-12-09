@@ -62,3 +62,9 @@ graph TD
     おやつ判定 -->|残量なし| 停止1[補充待ち & リセット]
     停止1 --> 初期化
 ```
+
+# 参考サイト
+
+[基本プロジェクト：サーボ](https://docs.sunfounder.com/projects/elite-explorer-kit/ja/latest/basic_projects/27_basic_servo.html)
+
+[WiFi接続方法参考](https://docs.sunfounder.com/projects/elite-explorer-kit/ja/latest/iot_projects/00_iot_project.html)
