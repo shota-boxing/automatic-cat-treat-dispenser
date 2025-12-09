@@ -39,7 +39,7 @@
 
 # 配線図
 ※Breadboard Power Module with Batteryを実機には取り付けている
-  <img width="869" height="760" alt="image" src="https://github.com/user-attachments/assets/db1d06ef-2cb0-4e73-b557-7a47ea7ae2fe" />
+  
 
 # 回路図
 <img width="817" height="573" alt="image" src="https://github.com/user-attachments/assets/2ce914e1-487e-42d6-9dd5-871a02f01f54" />
