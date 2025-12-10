@@ -102,6 +102,22 @@ graph TD
 ・定時になればおやつが排出するプログラム
 
 ・物理的にタッチセンサに触れやすいように改良する
+
+# 使用ツール
+
+### Messaging API
+
+公式サイト
+
+[LINE公式アカウント作成](https://entry.line.biz/start/jp/)
+
+[Messaging API](https://developers.line.biz/ja/docs/messaging-api/pricing/)
+
+Messaging APIとは
+
+LINE公式アカウントと外部サービスをつなぎ、双方向のコミュニケーションを可能にする仕組み
+
+毎月200通までなら無料でコミュニケーションが取れる
  
 # 参考サイト
 
