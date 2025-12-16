@@ -28,7 +28,7 @@ unsigned long lastTriggerTime = 0; ///最後に動作した時間を保存する
 const unsigned long cooldown = 10000; // 10秒クールダウン重複開閉を防ぐため
 
 int count = 0;///おやつを排出回数を保存する変数
-#define MAX_SNACK 8///最大おやつ排出回数
+#define MAX_SNACK 6///最大おやつ排出回数
 
 WiFiSSLClient wifi;
 HttpClient client = HttpClient(wifi, serverAddress, port);
@@ -87,8 +87,6 @@ void loop() {
     gateServo.write(pos);
     delay(50);
    }
-
-    delay(2000);  ///開いた状態で待機（秒数は実機を作ってから決める）
 
     for(int pos=60; pos>=0; pos-=5){
     gateServo.write(pos);
