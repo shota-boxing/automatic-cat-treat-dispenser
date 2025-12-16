@@ -3,6 +3,8 @@
 # 概要
 卒業制作で自動おやつディスペンサーを作成
 
+[排出動画](https://github.com/user-attachments/assets/c99220cf-aa28-45f3-878d-1a4b46926cdf)
+
 # 機能
 ・タッチセンサで触れたらおやつを排出する
 
