@@ -1,7 +1,7 @@
-# automatic-cat-treat-dispenser
+# 卒業制作：自動おやつディスペンサー
 
 # 概要
-卒業制作で自動おやつディスペンサーを作成
+猫の健康と飼い主の安心を両立するIoT給餌機
 
 [排出動画](https://github.com/user-attachments/assets/c99220cf-aa28-45f3-878d-1a4b46926cdf)
 
