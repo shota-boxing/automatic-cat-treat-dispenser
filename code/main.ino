@@ -170,7 +170,4 @@ void sendLineMessage(const char* message){///与えられた文字列messageをL
  client.stop(); //HttpClient client が持っている HTTPリクエスト／レスポンスのセッションを終了
                 //呼ばないと、次回の送信時に「前の接続が残っている」と誤解されて失敗することがある
 
- wifi.stop(); //WiFiSSLClient wifi が持っている暗号化されたソケット（TLS/SSLセッション）を終了
-              //HTTPS通信では「暗号化トンネル」を張っているので、これを閉じないと次回の接続が不安定になる
-
 }
