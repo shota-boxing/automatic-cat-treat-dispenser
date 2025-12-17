@@ -93,7 +93,7 @@ void loop() {
     delay(50);
     }
 
-    char msg[512];  // メッセージ用バッファ
+    char msg[1024];  // メッセージ用バッファ
     snprintf(msg, sizeof(msg),"The cat activated the touch sensor! Remaining treat dispenses: %d times!",MAX_SNACK - count);
     ///snprintf:書式付き文字列を安全に msg に書き込む関数
     ///第2引数 sizeof(msg) により、最大 512 バイトまでしか書き込まれないので バッファオーバーフロー防止
@@ -106,7 +106,7 @@ void loop() {
   }
   if(count==MAX_SNACK)
   {
-    char msg1[512];
+    char msg1[1024];
     snprintf(msg1,sizeof(msg1),"The treats are running low!");
     sendLineMessage(msg1);
 
@@ -130,7 +130,7 @@ void sendLineMessage(const char* message){///与えられた文字列messageをL
 
   // JSON本文を char[] + snprintf で組み立て
   // バッファサイズは十分に大きく確保（例: 512）
-  char body[512];
+  char body[1024];
   snprintf(body, sizeof(body),
            "{\"to\":\"your userID\",\"messages\":[{\"type\":\"text\",\"text\":\"%s\"}]}",message);////snprintf:書式付き文字列を安全にバッファへ書き込む関数
   ///sizeof(body) を指定しているので、最大 512 バイトまでしか書き込まれず、バッファオーバーフローを防げます
