@@ -97,6 +97,7 @@ graph TD
 - 通知遅延：約10秒
 - 応答速度：センサー反応からモーター駆動まで 0.2秒
 - 1回おやつ排出量：約20㌘
+- Breadboard Power Module with Batteryの容量：約500mAh
 
 # 工夫点
 
