@@ -100,7 +100,7 @@ graph TD
 - 排出量の平均：23ℊ
 
 # 排出量のヒストグラム
-![排出量](picture/Dispensing%20Amount%20Histogram.png)
+![排出量](picture/DispensingAmountHistogram.png)
 
 # 工夫点
 
