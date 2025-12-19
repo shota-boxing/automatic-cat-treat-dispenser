@@ -51,7 +51,7 @@
 
 # 配線図
 ※Breadboard Power Module with Batteryを実機には取り付けている
-  ![配線図](picture/wiring%20diagram.png)
+![配線図](picture/Wiring%20diagram.png)
 
 # 回路図
 ![回路図](picture/CircuitDiagram.png)
